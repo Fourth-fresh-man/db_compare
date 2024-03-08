@@ -1,0 +1,19 @@
+# config.yml
+
+database:
+  old_datasource:
+    username: 'root'
+    password: '123456'
+    host: '127.0.0.1'
+    port: 3306
+    database: 'mlops_ui'
+
+  new_datasource:
+    username: 'root'
+    password: '123456'
+    host: '127.0.0.1'
+    port: 3307
+    database: 'mlops_ui'
+
+  ignoreColumn: # 可以设置跳过字段比较
+    - 'time'
